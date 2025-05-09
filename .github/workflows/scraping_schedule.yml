@@ -25,27 +25,50 @@ jobs:
       with:
         python-version: '3.x'
         
+    - name: Install Chrome
+      run: |
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install jupyter nbconvert pandas requests beautifulsoup4
+        pip install -r requirements.txt
         
     - name: Convert notebooks to Python scripts
       run: |
-        jupyter nbconvert --to python scraper_*.ipynb
+        echo "Converting notebooks to Python scripts..."
+        for notebook in scraper_*.ipynb yoko.ipynb; do
+          if [ -s "$notebook" ]; then
+            echo "Converting $notebook..."
+            jupyter nbconvert --to python "$notebook" || echo "Failed to convert $notebook"
+          fi
+        done
         
     - name: Run scrapers
       run: |
-        python scraper_koepel.py
-        python scraper_coolcharm.py
-        python scraper_rite.py
-        python scraper_rowreformer.py
-        # python yoko.py
+        echo "Starting scrapers..."
+        for script in scraper_*.py yoko.py; do
+          if [ -f "$script" ]; then
+            echo "Running $script..."
+            python "$script" || echo "Warning: $script failed to run"
+          else
+            echo "Warning: $script not found"
+          fi
+        done
         
     - name: Commit and push if changes
       run: |
+        echo "Checking for changes..."
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add scraped_data/
-        git commit -m "Update scraped data" -a || exit 0
-        git push 
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          echo "Committing changes..."
+          git commit -m "Update scraped data" -a || exit 0
+          echo "Pushing changes..."
+          git push 
