@@ -29,18 +29,36 @@ jobs:
         
     - name: Install Chrome and ChromeDriver
       run: |
+        # Install required packages
         sudo apt-get update
-        sudo apt-get install -y wget gnupg2
+        sudo apt-get install -y wget gnupg2 unzip
+        
+        # Add Google Chrome repository
         wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        
+        # Install Chrome
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
+        
+        # Get Chrome version and download matching ChromeDriver
         CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
+        echo "Chrome version: $CHROME_VERSION"
+        
+        # Download and install ChromeDriver
         CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+        echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
+        
         wget -q "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
-        unzip chromedriver_linux64.zip
+        unzip -q chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
         sudo chmod +x /usr/local/bin/chromedriver
+        
+        # Verify installations
+        echo "Chrome version:"
+        google-chrome --version
+        echo "ChromeDriver version:"
+        chromedriver --version
         
     - name: Install dependencies
       run: |
