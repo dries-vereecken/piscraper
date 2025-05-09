@@ -1,0 +1,49 @@
+name: Scheduled Scraping
+
+on:
+  schedule:
+    # 8 AM CET / 7 AM CEST
+    - cron: '0 6 * * *'
+    # 2 PM CET / 1 PM CEST
+    - cron: '0 12 * * *'
+    # 8 PM CET / 7 PM CEST
+    - cron: '0 18 * * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jupyter nbconvert pandas requests beautifulsoup4
+        
+    - name: Convert notebooks to Python scripts
+      run: |
+        jupyter nbconvert --to python scraper_*.ipynb
+        
+    - name: Run scrapers
+      run: |
+        python scraper_koepel.py
+        python scraper_coolcharm.py
+        python scraper_rite.py
+        python scraper_rowreformer.py
+        python yoko.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add scraped_data/
+        git commit -m "Update scraped data" -a || exit 0
+        git push
