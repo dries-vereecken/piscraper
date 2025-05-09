@@ -27,12 +27,20 @@ jobs:
       with:
         python-version: '3.11'
         
-    - name: Install Chrome
+    - name: Install Chrome and ChromeDriver
       run: |
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg2
         wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
         sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
+        CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
+        CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+        wget -q "https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
         
     - name: Install dependencies
       run: |
@@ -42,7 +50,7 @@ jobs:
     - name: Convert notebooks to Python scripts
       run: |
         echo "Converting notebooks to Python scripts..."
-        for notebook in scraper_*.ipynb yoko.ipynb; do
+        for notebook in scraper_*.ipynb; do
           if [ -s "$notebook" ]; then
             echo "Converting $notebook..."
             jupyter nbconvert --to python "$notebook" || echo "Failed to convert $notebook"
@@ -52,7 +60,7 @@ jobs:
     - name: Run scrapers
       run: |
         echo "Starting scrapers..."
-        for script in scraper_*.py yoko.py; do
+        for script in scraper_*.py; do
           if [ -f "$script" ]; then
             echo "Running $script..."
             python "$script" || echo "Warning: $script failed to run"
