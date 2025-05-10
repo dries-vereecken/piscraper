@@ -77,7 +77,6 @@ while True:
                 # Filter and structure the details
                 details_lines = details_text.split('\n')
                 filtered_details = {
-                    "description": "",
                     "date": "",
                     "time": "",
                     "capacity": "",
@@ -97,13 +96,10 @@ while True:
                         filtered_details["capacity"] = line
                     elif re.match(r"^[A-Za-z\s]+$", line) and not any(keyword in line.lower() for keyword in ["pilates", "reformer", "core", "lichaam"]):
                         filtered_details["instructor"] = line
-                    else:
-                        if not filtered_details["description"] and "pilates" in line.lower():
-                            filtered_details["description"] = line
 
                 class_details.append(filtered_details)
                 scraped_count += 1
-                print(f"Scraped class {scraped_count}: {filtered_details}")
+                # print(f"Scraped class {scraped_count}: {filtered_details}")
 
                 # Improved modal closing with multiple fallback methods
                 max_close_attempts = 3
@@ -171,7 +167,7 @@ while True:
             pass
 
         driver.execute_script("arguments[0].click();", next_button)
-        time.sleep(2)
+        time.sleep(4)
 
     except TimeoutException:
         print("No more pages to scrape. Exiting...")
@@ -189,7 +185,36 @@ while True:
 output_file = os.path.join(output_dir, f"koepel_schedule_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(class_details, f, ensure_ascii=False, indent=4)
+# Count the number of classes scraped
+num_classes = len(class_details)
+print(f"Scraped {num_classes} classes")
+
+# Check if all expected fields are populated correctly
+expected_fields = ["date", "time", "capacity", "instructor"]
+missing_fields = {}
+
+for i, class_data in enumerate(class_details):
+    for field in expected_fields:
+        if field not in class_data or not class_data[field]:
+            if field not in missing_fields:
+                missing_fields[field] = []
+            missing_fields[field].append(i)
+
+if missing_fields:
+    print("Warning: Some fields are missing or empty:")
+    for field, indices in missing_fields.items():
+        print(f"  - Field '{field}' is missing in {len(indices)} classes (indices: {indices[:5]}{'...' if len(indices) > 5 else ''})")
+else:
+    print("All expected fields are populated correctly in all classes")
+
+# Print distinct locations if available
+if any("location" in class_data for class_data in class_details):
+    distinct_locations = set(class_data.get("location", "") for class_data in class_details if "location" in class_data)
+    print(f"\nFound {len(distinct_locations)} distinct locations:")
+    for location in sorted(distinct_locations):
+        if location:  # Only print non-empty locations
+            print(f"  - {location}")
+
 
 print(f"Done! Saved {scraped_count} classes to {output_file}")
 driver.quit()
-

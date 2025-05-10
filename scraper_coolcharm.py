@@ -94,7 +94,7 @@ for week in range(4):
         sleep((5))  # Wait for new data to load
 
 # Convert to JSON structure
-print(json.dumps({"classes": all_classes}, indent=2))
+# print(json.dumps({"classes": all_classes}, indent=2))
 
 driver.quit()
 
@@ -176,7 +176,7 @@ for week in range(4):
         sleep(5)  # Wait for new data to load
 
 # Convert to JSON and print
-print(json.dumps(all_classes, indent=2))
+# print(json.dumps(all_classes, indent=2))
 
 driver.quit()
 
@@ -194,6 +194,34 @@ os.makedirs(output_dir, exist_ok=True)
 output_file = os.path.join(output_dir, f"coolcharm_schedule_{current_datetime}.json")
 with open(output_file, "w") as f:
     json.dump(all_classes, f, indent=2)
+
+# Count the number of classes scraped
+num_classes = len(all_classes)
+print(f"Scraped {num_classes} classes")
+
+# Check if all expected fields are populated correctly
+expected_fields = ["name", "date", "hour", "address", "instructor", "booking_status"]
+missing_fields = {}
+
+for i, class_data in enumerate(all_classes):
+    for field in expected_fields:
+        if field not in class_data or not class_data[field]:
+            if field not in missing_fields:
+                missing_fields[field] = []
+            missing_fields[field].append(i)
+
+if missing_fields:
+    print("Warning: Some fields are missing or empty:")
+    for field, indices in missing_fields.items():
+        print(f"  - Field '{field}' is missing in {len(indices)} classes (indices: {indices[:5]}{'...' if len(indices) > 5 else ''})")
+else:
+    print("All expected fields are populated correctly in all classes")
+
+# Print distinct addresses
+distinct_addresses = set(class_data["address"] for class_data in all_classes)
+print(f"\nFound {len(distinct_addresses)} distinct locations:")
+for address in sorted(distinct_addresses):
+    print(f"  - {address}")
 
 print(f"Saved schedule data to {output_file}")
 

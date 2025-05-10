@@ -128,6 +128,32 @@ filename = f"scraped_data/row_schedule_{current_datetime}.json"
 # Save to JSON file
 with open(filename, "w", encoding="utf-8") as f:
     json.dump(schedule_data, f, indent=2, ensure_ascii=False)
+# Count the total number of classes scraped
+total_classes = 0
+for week_day, data in schedule_data.items():
+    total_classes += len(data['classes'])
+print(f"Scraped {total_classes} classes")
+
+# Check if all expected fields are populated correctly
+expected_fields = ["status", "details"]
+missing_fields = {}
+
+class_index = 0
+for week_day, data in schedule_data.items():
+    for i, class_data in enumerate(data['classes']):
+        for field in expected_fields:
+            if field not in class_data or class_data[field] is None:
+                if field not in missing_fields:
+                    missing_fields[field] = []
+                missing_fields[field].append(class_index)
+        class_index += 1
+
+if missing_fields:
+    print("Warning: Some fields are missing or empty:")
+    for field, indices in missing_fields.items():
+        print(f"  - Field '{field}' is missing in {len(indices)} classes (indices: {indices[:5]}{'...' if len(indices) > 5 else ''})")
+else:
+    print("All expected fields are populated correctly in all classes")
 
 print(f"Data has been saved to {filename}")
 
