@@ -53,15 +53,23 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
+    - name: Convert notebooks to Python scripts
+      run: |
+        echo "Converting notebooks to Python scripts..."
+        for notebook in *.ipynb; do
+          if [ -f "$notebook" ]; then
+            echo "Converting $notebook..."
+            jupyter nbconvert --to python "$notebook"
+          fi
+        done
+        
     - name: Run scrapers
       run: |
         echo "Starting scrapers..."
-        for script in scraper_*.py; do
+        for script in *.py; do
           if [ -f "$script" ]; then
             echo "Running $script..."
             python "$script" || echo "Warning: $script failed to run"
-          else
-            echo "Warning: $script not found"
           fi
         done
         
