@@ -27,20 +27,24 @@ jobs:
       with:
         python-version: '3.11'
         
-    - name: Setup Chrome and ChromeDriver
+    - name: Setup Chrome
       uses: browser-actions/setup-chrome@v1
       with:
         chrome-version: stable
     
     - name: Setup ChromeDriver
-      uses: nanasess/setup-chromedriver@v2
-      with:
-        chromedriver-version: latest
-        
-    - name: Display Chrome and ChromeDriver versions
       run: |
-        echo "Chrome version:"
-        google-chrome --version
+        # Get Chrome version
+        CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
+        echo "Chrome version: $CHROME_VERSION"
+        
+        # Download and install ChromeDriver
+        wget -q "https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/linux64/chromedriver-linux64.zip"
+        unzip -q chromedriver-linux64.zip
+        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
+        sudo chmod +x /usr/local/bin/chromedriver
+        
+        # Verify installation
         echo "ChromeDriver version:"
         chromedriver --version
         
