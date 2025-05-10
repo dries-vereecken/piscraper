@@ -63,6 +63,23 @@ jobs:
           fi
         done
         
+    - name: Update ChromeDriver configuration
+      run: |
+        echo "Updating ChromeDriver configuration in scripts..."
+        for script in scraper_*.py; do
+          if [ -f "$script" ]; then
+            echo "Updating $script..."
+            # Replace ChromeDriverManager().install() with /usr/local/bin/chromedriver
+            sed -i 's|ChromeDriverManager().install()|"/usr/local/bin/chromedriver"|g' "$script"
+            # Add Service import if not present
+            if ! grep -q "from selenium.webdriver.chrome.service import Service" "$script"; then
+              sed -i '1i from selenium.webdriver.chrome.service import Service' "$script"
+            fi
+            # Update driver initialization to use Service
+            sed -i 's|driver = webdriver.Chrome(options=chrome_options)|driver = webdriver.Chrome(service=Service("/usr/local/bin/chromedriver"), options=chrome_options)|g' "$script"
+          fi
+        done
+        
     - name: Run scrapers
       run: |
         echo "Starting scrapers..."
