@@ -16,6 +16,7 @@ from time import sleep
 from datetime import datetime
 import json
 import time
+import re
 
 # Set up Chrome options
 chrome_options = Options()
