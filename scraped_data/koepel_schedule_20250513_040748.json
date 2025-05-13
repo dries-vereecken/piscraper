@@ -1,0 +1,182 @@
+[
+    {
+        "date": "maandag 12 mei",
+        "time": "08:00 - 08:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 12 mei",
+        "time": "09:00 - 09:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 12 mei",
+        "time": "10:00 - 10:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 12 mei",
+        "time": "18:00 - 18:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 12 mei",
+        "time": "19:00 - 19:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 12 mei",
+        "time": "20:00 - 20:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "dinsdag 13 mei",
+        "time": "17:00 - 17:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "dinsdag 13 mei",
+        "time": "18:00 - 18:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "dinsdag 13 mei",
+        "time": "19:00 - 19:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "dinsdag 13 mei",
+        "time": "20:00 - 20:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "dinsdag 13 mei",
+        "time": "21:00 - 21:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "woensdag 14 mei",
+        "time": "07:00 - 07:45",
+        "capacity": "3 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "woensdag 14 mei",
+        "time": "08:00 - 08:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "woensdag 14 mei",
+        "time": "09:00 - 09:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "woensdag 14 mei",
+        "time": "10:00 - 10:45",
+        "capacity": "3 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "donderdag 15 mei",
+        "time": "17:00 - 17:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "donderdag 15 mei",
+        "time": "18:00 - 18:45",
+        "capacity": "0 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "donderdag 15 mei",
+        "time": "19:00 - 19:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "donderdag 15 mei",
+        "time": "20:00 - 20:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "vrijdag 16 mei",
+        "time": "07:00 - 07:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "vrijdag 16 mei",
+        "time": "08:00 - 08:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "vrijdag 16 mei",
+        "time": "09:00 - 09:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "vrijdag 16 mei",
+        "time": "10:00 - 10:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "zaterdag 17 mei",
+        "time": "09:00 - 09:45",
+        "capacity": "3 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "zaterdag 17 mei",
+        "time": "10:00 - 10:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "zaterdag 17 mei",
+        "time": "11:00 - 11:45",
+        "capacity": "4 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "zaterdag 17 mei",
+        "time": "13:00 - 13:45",
+        "capacity": "0 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "zaterdag 17 mei",
+        "time": "14:00 - 14:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "zondag 18 mei",
+        "time": "11:00 - 11:45",
+        "capacity": "3 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    }
+]
