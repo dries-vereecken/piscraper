@@ -28,9 +28,10 @@ jobs:
         python-version: '3.11'
         
     - name: Setup Chrome
-      uses: browser-actions/setup-chrome@v1
-      with:
-        chrome-version: stable
+      run: |
+        wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_136.0.7103.92-1_amd64.deb
+        sudo dpkg -i google-chrome-stable_136.0.7103.92-1_amd64.deb
+        google-chrome --version
     
     - name: Setup ChromeDriver
       run: |
@@ -77,6 +78,8 @@ jobs:
             fi
             # Update driver initialization to use Service
             sed -i 's|driver = webdriver.Chrome(options=chrome_options)|driver = webdriver.Chrome(service=Service("/usr/local/bin/chromedriver"), options=chrome_options)|g' "$script"
+            # Update Chrome version in user-agent
+            sed -i 's|Chrome/[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|Chrome/136.0.7103.92|g' "$script"
           fi
         done
         
