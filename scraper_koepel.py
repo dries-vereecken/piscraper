@@ -23,7 +23,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run in headless mode
 chrome_options.add_argument("--window-size=1920,1080")  # Desktop resolution
 chrome_options.add_argument("--start-maximized")  # Maximize window
-chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")  # Desktop user agent
+chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.92 Safari/537.36")  # Desktop user agent
 chrome_options.add_argument('--disable-blink-features=AutomationControlled')  # Hide automation
 chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])  # Hide automation
 chrome_options.add_experimental_option('useAutomationExtension', False)  # Hide automation
