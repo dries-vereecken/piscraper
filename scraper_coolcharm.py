@@ -60,9 +60,30 @@ for week in range(4):
         # Parse the date (e.g., "SATURDAY 10 MAY" to "10/05/2025")
         try:
             day_month = ' '.join(date_text.split()[1:])  # Get "10 MAY"
-            date_obj = datetime.strptime(f"{day_month} 2025", "%d %b %Y")
-            date = date_obj.strftime("%d/%m/%Y")  # Format to "10/05/2025"
-        except ValueError as e:
+            # Handle month names properly - some months have different formats
+            date_parts = day_month.split()
+            day = date_parts[0]
+            month = date_parts[1].capitalize()
+            
+            # Use locale-independent month parsing
+            month_dict = {
+                'JANUARY': '01', 'JAN': '01',
+                'FEBRUARY': '02', 'FEB': '02',
+                'MARCH': '03', 'MAR': '03',
+                'APRIL': '04', 'APR': '04',
+                'MAY': '05',
+                'JUNE': '06', 'JUN': '06',
+                'JULY': '07', 'JUL': '07',
+                'AUGUST': '08', 'AUG': '08',
+                'SEPTEMBER': '09', 'SEP': '09',
+                'OCTOBER': '10', 'OCT': '10',
+                'NOVEMBER': '11', 'NOV': '11',
+                'DECEMBER': '12', 'DEC': '12'
+            }
+            
+            month_num = month_dict.get(month.upper(), '00')
+            date = f"{int(day):02d}/{month_num}/2025"  # Format to "10/05/2025"
+        except (ValueError, KeyError) as e:
             print(f"Error parsing date {date_text}: {e}")
             date = date_text  # Fallback to original text if parsing fails
 
@@ -76,13 +97,23 @@ for week in range(4):
             except NoSuchElementException:
                 location = "Location not specified"
 
+            try:
+                availability = item.find_element(By.CLASS_NAME, "ScheduleListItem_participants").find_element(By.CLASS_NAME, "level-left").text.strip()
+            except NoSuchElementException:
+                availability = "Not specified"
+
+            try:
+                booking_status = item.find_element(By.CLASS_NAME, "SessionBookButton").text.strip()
+            except NoSuchElementException:
+                booking_status = "Unknown"
+
             class_data = {
                 "date": date,
                 "time": item.find_element(By.CLASS_NAME, "ScheduleListItem_time").text.split('\n')[0].strip(),
                 "class_name": item.find_element(By.CLASS_NAME, "ScheduleListItem_title").text.strip(),
                 "location": location,
-                "availability": item.find_element(By.CLASS_NAME, "ScheduleListItem_participants").find_element(By.CLASS_NAME, "level-left").text.strip(),
-                "booking_status": item.find_element(By.CLASS_NAME, "SessionBookButton").text.strip()
+                "availability": availability,
+                "booking_status": booking_status
             }
             all_classes.append(class_data)
 
@@ -91,7 +122,7 @@ for week in range(4):
         next_week_button = driver.find_element(By.XPATH, "/html/body/div/div/div/div/div[2]/div/div/div/div[3]/span/i")
         next_week_button.click()
         print("Clicked next week button")
-        sleep((5))  # Wait for new data to load
+        sleep(5)  # Wait for new data to load
 
 # Convert to JSON structure
 # print(json.dumps({"classes": all_classes}, indent=2))
@@ -127,7 +158,7 @@ print("WebDriver initialized successfully")
 
 
 # Scrape four weeks of data
-for week in range(4):
+for week in range(3):
     # Wait for the schedule list to load
     wait = WebDriverWait(driver, 10)
     schedule_list = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "ScheduleListGroup")))
@@ -138,45 +169,43 @@ for week in range(4):
     # Process each schedule group
     for group in schedule_groups:
         # Get the date header and convert to standard format
-        date_text = group.find_element(By.CLASS_NAME, "ScheduleListGroup_date").text.strip()
-
-        # Parse the date (e.g., "SATURDAY 10 MAY" to "10/05/2025")
+        date_text = group.find_element(By.CSS_SELECTOR, "div.ScheduleListGroup div.ScheduleListGroup_date.heading").text.strip()
+        
+        # Parse the date with special handling for "TODAY"
         try:
-            # Extract day and month (e.g., "SATURDAY 10 MAY" -> "10 MAY")
-            day_month = ' '.join(date_text.split()[1:])
-            # Parse with year 2025 (based on context)
-            date_obj = datetime.strptime(f"{day_month} 2025", "%d %b %Y")
+            if date_text.upper() == "TODAY":
+                date_obj = datetime.now()
+            else:
+                # Extract day and month (e.g., "SATURDAY 10 MAY" -> "10 MAY")
+                day_month = ' '.join(date_text.split()[1:])
+                # Parse with year 2025 (based on context)
+                date_obj = datetime.strptime(f"{day_month} 2025", "%d %b %Y")
             # Format to "10/05/2025"
             date = date_obj.strftime("%d/%m/%Y")
         except ValueError as e:
             print(f"Error parsing date {date_text}: {e}")
             date = date_text  # Fallback to default date if parsing fails
-
+            
         # Find all class items in this group
         class_items = group.find_elements(By.CLASS_NAME, "ScheduleListItem")
-
+        
         # Process each class
         for item in class_items:
             class_data = {
-                "name": item.find_element(By.CLASS_NAME, "ScheduleListItem_title").text.strip(),
+                "type": item.find_element(By.CLASS_NAME, "ScheduleListItem_title").text.strip(),
+                "time": item.find_element(By.CLASS_NAME, "ScheduleListItem_time").text.strip(),
+                "location": item.find_element(By.CLASS_NAME, "ScheduleListItem_location").find_element(By.TAG_NAME, "span").text.strip(),
+                "status": item.find_element(By.CLASS_NAME, "ScheduleListItem_bookColumn").find_element(By.CLASS_NAME, "SessionBookButton").text.strip(),
                 "date": date,
-                "hour": item.find_element(By.CLASS_NAME, "ScheduleListItem_time").text.split('\n')[0].strip(),
-                "address": item.find_element(By.CLASS_NAME, "ScheduleListItem_location").text.strip(),
-                "instructor": item.find_element(By.CLASS_NAME, "ScheduleListItem_instructor").text.strip() if item.find_elements(By.CLASS_NAME, "ScheduleListItem_instructor") else "No instructor listed",
-                "booking_status": item.find_element(By.CLASS_NAME, "SessionBookButton").text.strip(),
-                # "availability": item.find_element(By.CLASS_NAME, "ScheduleListItem_participants").find_element(By.CLASS_NAME, "level-left").text.strip()
             }
             all_classes.append(class_data)
 
     # Click next week button if not on last iteration
-    if week < 3:
+    if week < 2:
         next_week_button = driver.find_element(By.XPATH, "/html/body/div/div/div/div/div[2]/div/div/div/div[3]/span/i")
         next_week_button.click()
         print("Clicked next week button")
         sleep(5)  # Wait for new data to load
-
-# Convert to JSON and print
-# print(json.dumps(all_classes, indent=2))
 
 driver.quit()
 
