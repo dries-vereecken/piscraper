@@ -1,0 +1,1394 @@
+[
+  {
+    "date": "09/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "09/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "09/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "09/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "09/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "10/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "10/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "10/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "10/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "11/06/2025",
+    "time": "09:00 - 10:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 1",
+    "booking_status": "Book"
+  },
+  {
+    "date": "11/06/2025",
+    "time": "10:00 - 11:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "11/06/2025",
+    "time": "19:00 - 19:55",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "11/06/2025",
+    "time": "20:00 - 20:55",
+    "class_name": "Tower + Mat Beginners (Level 1)",
+    "location": "Location not specified",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "12/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "12/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower + Chair Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "12/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Advanced (Level 3)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "12/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "12/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "14/06/2025",
+    "time": "09:00 - 10:30",
+    "class_name": "Flow, Fuel & Shine Event in GENK",
+    "location": "Genk",
+    "availability": "0 / 10",
+    "booking_status": "Book"
+  },
+  {
+    "date": "14/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "14/06/2025",
+    "time": "11:00 - 12:30",
+    "class_name": "Flow, Fuel & Shine Event in GENK",
+    "location": "Genk",
+    "availability": "1 / 10",
+    "booking_status": "Book"
+  },
+  {
+    "date": "14/06/2025",
+    "time": "11:00 - 11:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "15/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 6",
+    "booking_status": "Book"
+  },
+  {
+    "date": "15/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "16/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "16/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "16/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "16/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "16/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "17/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "17/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "17/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "17/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "17/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "18/06/2025",
+    "time": "09:00 - 10:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 1",
+    "booking_status": "Book"
+  },
+  {
+    "date": "18/06/2025",
+    "time": "10:00 - 11:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "18/06/2025",
+    "time": "19:00 - 19:55",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "18/06/2025",
+    "time": "20:00 - 20:55",
+    "class_name": "Tower + Mat Beginners (Level 1)",
+    "location": "Location not specified",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "19/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "19/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower + Chair Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "19/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Advanced (Level 3)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "19/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "19/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "21/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "21/06/2025",
+    "time": "11:00 - 11:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "22/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 6",
+    "booking_status": "Book"
+  },
+  {
+    "date": "22/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "23/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "23/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "23/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "23/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "23/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "24/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "24/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "24/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "24/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "24/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "25/06/2025",
+    "time": "09:00 - 10:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 1",
+    "booking_status": "Book"
+  },
+  {
+    "date": "25/06/2025",
+    "time": "10:00 - 11:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "25/06/2025",
+    "time": "19:00 - 19:55",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "25/06/2025",
+    "time": "20:00 - 20:55",
+    "class_name": "Tower + Mat Beginners (Level 1)",
+    "location": "Location not specified",
+    "availability": "5 / 5",
+    "booking_status": "Full"
+  },
+  {
+    "date": "26/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "26/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower + Chair Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "4 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "26/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Advanced (Level 3)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "26/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "26/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "28/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "28/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "28/06/2025",
+    "time": "11:00 - 11:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "29/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 6",
+    "booking_status": "Book"
+  },
+  {
+    "date": "29/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "30/06/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "30/06/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "30/06/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "30/06/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "30/06/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "01/07/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "01/07/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "01/07/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "01/07/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "3 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "01/07/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "02/07/2025",
+    "time": "09:00 - 10:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 1",
+    "booking_status": "Book"
+  },
+  {
+    "date": "02/07/2025",
+    "time": "10:00 - 11:00",
+    "class_name": "Open Gym Class",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "02/07/2025",
+    "time": "19:00 - 19:55",
+    "class_name": "Reformer Beginners (Level 1)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "02/07/2025",
+    "time": "20:00 - 20:55",
+    "class_name": "Tower + Mat Beginners (Level 1)",
+    "location": "Location not specified",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "03/07/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "03/07/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower + Chair Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "03/07/2025",
+    "time": "17:30 - 18:25",
+    "class_name": "Reformer Advanced (Level 3)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "03/07/2025",
+    "time": "18:30 - 19:25",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "2 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "03/07/2025",
+    "time": "19:30 - 20:25",
+    "class_name": "Tower Intermediate (Level 2)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "04/07/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "04/07/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "05/07/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "05/07/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "05/07/2025",
+    "time": "11:00 - 11:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "date": "06/07/2025",
+    "time": "09:00 - 09:55",
+    "class_name": "Tower mixed level (All levels)",
+    "location": "Genk",
+    "availability": "0 / 6",
+    "booking_status": "Book"
+  },
+  {
+    "date": "06/07/2025",
+    "time": "10:00 - 10:55",
+    "class_name": "Reformer Mixed Level (All levels)",
+    "location": "Genk",
+    "availability": "1 / 5",
+    "booking_status": "Book"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "17:30 - 18:20",
+    "location": "Antwerp",
+    "status": "Full",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "09/06/2025"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 10 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 10 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "17:30 - 18:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 10 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 10 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 10 JUNE"
+  },
+  {
+    "type": "Master Class Mat + Tower (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 11 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 11 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 11 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:00 - 18:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 11 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:00 - 19:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 11 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 12 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 12 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 12 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 12 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 12 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 13 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 13 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 14 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 14 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 14 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 15 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 15 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 15 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "08:00 - 08:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 16 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 16 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 16 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "17:30 - 18:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 16 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 16 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "17:30 - 18:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 17 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 18 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 18 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 18 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 18 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 18 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 19 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 19 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 19 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:00 - 18:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 20 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:00 - 19:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 20 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 21 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 21 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 21 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 21 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 22 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 22 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 22 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 22 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:00 - 18:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:00 - 19:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "20:00 - 20:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "MONDAY 23 JUNE"
+  },
+  {
+    "type": "Mat + Tower (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "17:30 - 18:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "TUESDAY 24 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "08:00 - 08:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 25 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 25 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 25 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 25 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "19:30 - 20:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "WEDNESDAY 25 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 26 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 26 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 26 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "18:30 - 19:20",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "THURSDAY 26 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 27 JUNE"
+  },
+  {
+    "type": "Master Class Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "FRIDAY 27 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 28 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 28 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SATURDAY 28 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "09:00 - 09:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 29 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "10:00 - 10:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 29 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "11:00 - 11:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 29 JUNE"
+  },
+  {
+    "type": "Reformer (All Levels)",
+    "time": "12:00 - 12:50",
+    "location": "Antwerp",
+    "status": "Book",
+    "date": "SUNDAY 29 JUNE"
+  }
+]
