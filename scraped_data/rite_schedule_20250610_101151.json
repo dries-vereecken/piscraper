@@ -1,0 +1,1514 @@
+[
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "12:15 - 13:05",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maud P.",
+    "availability": "10 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "10/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Bredabaan 259",
+    "instructor": "Lena Z.",
+    "availability": "16 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maud P.",
+    "availability": "11 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "10/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Bredabaan 259",
+    "instructor": "Lena Z.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maud P.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "10/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Lieve V.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Marthe M.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "10/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Lieve V.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "10/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Marthe M.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "10/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "10/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Lieve V.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Sophie V.B.",
+    "availability": "18 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nanou R.",
+    "availability": "19 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Debbie J.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Sophie V.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nanou R.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Debbie J.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Karolien K.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Frida Z.",
+    "availability": "13 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Karolien K.",
+    "availability": "18 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Frida Z.",
+    "availability": "13 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Karolien K.",
+    "availability": "10 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Frida Z.",
+    "availability": "9 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "ANTWERP – REFORM",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "12:15 - 13:05",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Sanne S.",
+    "availability": "16 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "10 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "17 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Sanne S.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Sanne S.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "19 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ines D.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ines D.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "11/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "11/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "11/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ines D.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nienke D.B.",
+    "availability": "13 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Noemie B.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Van Till",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nienke D.B.",
+    "availability": "10 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Noemie B.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "17 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nienke D.B.",
+    "availability": "16 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Noemie B.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "10 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lena Z.",
+    "availability": "7 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "14 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "8 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lena Z.",
+    "availability": "8 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "5 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "11 / 19"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "12:15 - 13:05",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "13 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "18 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "7 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "7 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "15 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Sophie V.B.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "8 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Sophie V.B.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Dorothée Q.",
+    "availability": "16 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "12/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "12/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "12/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Dorothée Q.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "19 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Annick C.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Annick C.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nanou R.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Annick C.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nanou R.",
+    "availability": "10 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "15 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Nanou R.",
+    "availability": "7 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "6 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "11 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "16 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "10 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "11 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "6 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Felien D.M.",
+    "availability": "14 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "13 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Felien D.M.",
+    "availability": "14 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Lieke H.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "13/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Bredabaan 259",
+    "instructor": "Charlotte K.",
+    "availability": "17 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "13/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Felien D.M.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "13/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Lieke H.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lieke H.",
+    "availability": "19 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "14/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Spiridoula A.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lieke H.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "14/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Spiridoula A.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Jill D.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lieke H.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "RITE x CLAW | REFORM & BRUNCH",
+    "date": "14/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Spiridoula A.",
+    "availability": "4 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "RITE x CLAW | REFORM & BRUNCH",
+    "date": "14/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "15 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "14/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "14/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "15 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "14/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Maike T.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "14/06/2025",
+    "hour": "14:00 - 14:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Véronique B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "17 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Felien D.M.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Véronique B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Felien D.M.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Lara D.W.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ciska L.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "20 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ciska L.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "15 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Dorothée Q.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "15/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "3 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "15/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Dorothée Q.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "14:00 - 14:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "15:00 - 15:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "16:00 - 16:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Lieke H.",
+    "availability": "13 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "17:00 - 17:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Lieke H.",
+    "availability": "18 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "15/06/2025",
+    "hour": "18:00 - 18:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Lieke H.",
+    "availability": "11 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "12 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "11 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "07:00 - 07:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Noemie B.",
+    "availability": "8 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "6 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "3 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "08:00 - 08:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Noemie B.",
+    "availability": "6 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Nienke D.B.",
+    "availability": "15 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "7 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "09:00 - 09:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Frida Z.",
+    "availability": "4 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura V.",
+    "availability": "15 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Bredabaan 259",
+    "instructor": "Karolien K.",
+    "availability": "3 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "10:00 - 10:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Frida Z.",
+    "availability": "2 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura V.",
+    "availability": "7 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Bredabaan 259",
+    "instructor": "Karolien K.",
+    "availability": "3 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "11:00 - 11:50",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Lieve V.",
+    "availability": "4 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "12:00 - 12:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura V.",
+    "availability": "6 / 19"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "12:15 - 13:05",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Lieve V.",
+    "availability": "3 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "13:00 - 13:50",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura V.",
+    "availability": "8 / 19"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Helena E.",
+    "availability": "10 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "4 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "16:30 - 17:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "6 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Helena E.",
+    "availability": "17 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "8 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "17:30 - 18:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "4 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Helena E.",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Bredabaan 259",
+    "instructor": "Hina Q.",
+    "availability": "9 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "18:30 - 19:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Leen V.",
+    "availability": "17 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "8 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "19:30 - 20:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ines D.",
+    "availability": "12 / 17"
+  },
+  {
+    "name": "REFORM - ANTWERP",
+    "date": "16/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Riemstraat 13, Antwerp",
+    "instructor": "Laura Oliveira Granja",
+    "availability": "19 / 19"
+  },
+  {
+    "name": "REFORM - BRASSCHAAT",
+    "date": "16/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Bredabaan 259",
+    "instructor": "Judith M.",
+    "availability": "11 / 20"
+  },
+  {
+    "name": "REFORM - GHENT SOUTH",
+    "date": "16/06/2025",
+    "hour": "20:30 - 21:20",
+    "address": "Zuidstationstraat 18",
+    "instructor": "Ines D.",
+    "availability": "7 / 17"
+  }
+]
