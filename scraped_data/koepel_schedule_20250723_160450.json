@@ -1,0 +1,68 @@
+[
+    {
+        "date": "maandag 21 juli",
+        "time": "07:00 - 07:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 21 juli",
+        "time": "08:00 - 08:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 21 juli",
+        "time": "09:00 - 09:45",
+        "capacity": "1 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "maandag 21 juli",
+        "time": "10:00 - 10:45",
+        "capacity": "3 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "vrijdag 25 juli",
+        "time": "07:00 - 07:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    },
+    {
+        "date": "",
+        "time": "",
+        "capacity": "",
+        "instructor": ""
+    },
+    {
+        "date": "zondag 27 juli",
+        "time": "10:00 - 10:45",
+        "capacity": "2 / 4",
+        "instructor": "Gilltumn Vanhauwaert"
+    }
+]
