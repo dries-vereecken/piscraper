@@ -1,0 +1,2176 @@
+{
+  "Week 1 Maandag": {
+    "date": "11/08/2025",
+    "classes": []
+  },
+  "Week 1 Dinsdag": {
+    "date": "12/08/2025",
+    "classes": []
+  },
+  "Week 1 Woensdag": {
+    "date": "13/08/2025",
+    "classes": []
+  },
+  "Week 1 Donderdag": {
+    "date": "14/08/2025",
+    "classes": []
+  },
+  "Week 1 Vrijdag": {
+    "date": "15/08/2025",
+    "classes": []
+  },
+  "Week 1 Zaterdag": {
+    "date": "16/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 1 Zondag": {
+    "date": "17/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Manon",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "10:00 AM",
+          "All levels",
+          "Freke",
+          "Mat studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "8/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Maandag": {
+    "date": "18/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:30 AM",
+          "All levels",
+          "Gwendolien (Substitute)",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:30 AM",
+          "All levels",
+          "Gwendolien (Substitute)",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:30 AM",
+          "All levels",
+          "Gwendolien (Substitute)",
+          "Reformer studio",
+          "8/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Dinsdag": {
+    "date": "19/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "3/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "8/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "Intermediate",
+          "Elyne",
+          "Reformer studio",
+          "8/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Woensdag": {
+    "date": "20/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Lala",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Lala",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "6:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "7:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Donderdag": {
+    "date": "21/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "8:00 AM",
+          "All levels",
+          "Lauren",
+          "Mat studio",
+          "3/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "8/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "Active Aging",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "3/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Vrijdag": {
+    "date": "22/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "3/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "Intermediate",
+          "Elyne",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Zaterdag": {
+    "date": "23/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 2 Zondag": {
+    "date": "24/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "10:00 AM",
+          "All levels",
+          "Freke",
+          "Mat studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Maandag": {
+    "date": "25/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Dinsdag": {
+    "date": "26/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "Intermediate",
+          "Elyne",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "10/10",
+          "WAITLIST"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Woensdag": {
+    "date": "27/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Mabel (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Mabel (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Mabel (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "6:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:30 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "7/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "7:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Donderdag": {
+    "date": "28/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "8:00 AM",
+          "All levels",
+          "Lauren",
+          "Mat studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "6/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "Active Aging",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "Prenatal MAT pilates",
+          "12:00 PM",
+          "Prenatal",
+          "Lauren",
+          "Mat studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "5/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Vrijdag": {
+    "date": "29/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Tugba (Substitute)",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "0/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "9/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "Intermediate",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "4/10",
+          "BOOK"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Zaterdag": {
+    "date": "30/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "1/10",
+          "BOOK"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 3 Zondag": {
+    "date": "31/08/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "4/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "10:00 AM",
+          "All levels",
+          "Freke",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Maandag": {
+    "date": "01/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:30 AM",
+          "All levels",
+          "Charlotte",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Dinsdag": {
+    "date": "02/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "4/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "Prenatal MAT pilates",
+          "12:00 PM",
+          "All levels",
+          "Lauren",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "1:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "2:00 PM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Gwendolien (Substitute)",
+          "Reformer studio",
+          "5/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Gwendolien (Substitute)",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "7:00 PM",
+          "All levels",
+          "Laura",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Gwendolien",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "8:00 PM",
+          "All levels",
+          "Laura",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Woensdag": {
+    "date": "03/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:30 PM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "4/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:30 PM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "6:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:30 PM",
+          "Intermediate",
+          "Kim",
+          "Reformer studio",
+          "5/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "7:30 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:30 PM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Donderdag": {
+    "date": "04/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria (Substitute)",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "Active Aging",
+          "Ana",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Ana",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Ana",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Mabel",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Elyne (Substitute)",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Vrijdag": {
+    "date": "05/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "3/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Tugba",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "6:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "6:00 PM",
+          "All levels",
+          "Lauren",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "7:00 PM",
+          "Intermediate",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "7:00 PM",
+          "All levels",
+          "Lauren",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 PM",
+          "All levels",
+          "Elyne",
+          "Reformer studio",
+          "2/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Zaterdag": {
+    "date": "06/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "7:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "8:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Viktoria",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Rachael",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "11:00 AM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "12:00 PM",
+          "All levels",
+          "Rachael",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "12:00 PM",
+          "All levels",
+          "Mona",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "1:00 PM",
+          "All levels",
+          "Rachael",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "2:00 PM",
+          "All levels",
+          "Rachael",
+          "Reformer studio",
+          "1/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "4:00 PM",
+          "Intermediate",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "5:00 PM",
+          "Intermediate",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  },
+  "Week 4 Zondag": {
+    "date": "07/09/2025",
+    "classes": [
+      {
+        "details": [
+          "REFORM",
+          "9:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "9:00 AM",
+          "All levels",
+          "Feli",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "10:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "MAT pilates",
+          "10:00 AM",
+          "All levels",
+          "Feli",
+          "Mat studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      },
+      {
+        "details": [
+          "REFORM",
+          "11:00 AM",
+          "All levels",
+          "Kim",
+          "Reformer studio",
+          "0/10",
+          "AVAILABLE SOON"
+        ],
+        "status": null
+      }
+    ]
+  }
+}
