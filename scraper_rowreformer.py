@@ -125,14 +125,38 @@ import json
 current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f"scraped_data/row_schedule_{current_datetime}.json"
 
-# Save to JSON file
-with open(filename, "w", encoding="utf-8") as f:
-    json.dump(schedule_data, f, indent=2, ensure_ascii=False)
 # Count the total number of classes scraped
 total_classes = 0
+all_classes = []
 for week_day, data in schedule_data.items():
     total_classes += len(data['classes'])
+    # Flatten the data for database storage
+    for class_item in data['classes']:
+        class_item['week_day'] = week_day
+        all_classes.append(class_item)
+
 print(f"Scraped {total_classes} classes")
+
+# Import db_utils for database operations
+import os
+from db_utils import write_snapshots
+
+# Write to database if DATABASE_URL is set
+if os.getenv("DATABASE_URL"):
+    try:
+        write_snapshots("rowreformer", all_classes)
+        print("Successfully wrote data to database")
+    except Exception as e:
+        print(f"Error writing to database: {e}")
+        # Fallback to JSON if database write fails
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(schedule_data, f, indent=2, ensure_ascii=False)
+        print(f"Fallback: Saved schedule data to {filename}")
+else:
+    # Fallback to JSON when running locally without DATABASE_URL
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(schedule_data, f, indent=2, ensure_ascii=False)
+    print(f"Saved schedule data to {filename}")
 
 # Check if all expected fields are populated correctly
 expected_fields = ["status", "details"]

@@ -181,13 +181,31 @@ while True:
         driver.refresh()
         time.sleep(3)
 
-# Save the results to a JSON file
-output_file = os.path.join(output_dir, f"koepel_schedule_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
-with open(output_file, 'w', encoding='utf-8') as f:
-    json.dump(class_details, f, ensure_ascii=False, indent=4)
 # Count the number of classes scraped
 num_classes = len(class_details)
 print(f"Scraped {num_classes} classes")
+
+# Import db_utils for database operations
+from db_utils import write_snapshots
+
+# Write to database if DATABASE_URL is set
+if os.getenv("DATABASE_URL"):
+    try:
+        write_snapshots("koepel", class_details)
+        print("Successfully wrote data to database")
+    except Exception as e:
+        print(f"Error writing to database: {e}")
+        # Fallback to JSON if database write fails
+        output_file = os.path.join(output_dir, f"koepel_schedule_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(class_details, f, ensure_ascii=False, indent=4)
+        print(f"Fallback: Saved schedule data to {output_file}")
+else:
+    # Fallback to JSON when running locally without DATABASE_URL
+    output_file = os.path.join(output_dir, f"koepel_schedule_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(class_details, f, ensure_ascii=False, indent=4)
+    print(f"Saved schedule data to {output_file}")
 
 # Check if all expected fields are populated correctly
 expected_fields = ["date", "time", "capacity", "instructor"]
