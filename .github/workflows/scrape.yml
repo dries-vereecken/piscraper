@@ -45,43 +45,37 @@ jobs:
           echo "ChromeDriver version:"
           chromedriver --version
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r "Schedule scraper/requirements.txt"
+          pip install -r requirements.txt
 
       - name: Test database connection
         run: |
-          cd "Schedule scraper"
           python -c "from db_utils import test_connection; test_connection()"
 
       - name: Run CoolCharm scraper
         run: |
-          cd "Schedule scraper"
           python scraper_coolcharm.py
         continue-on-error: true
 
       - name: Run Koepel scraper
         run: |
-          cd "Schedule scraper"
           python scraper_koepel.py
         continue-on-error: true
 
       - name: Run Rite scraper
         run: |
-          cd "Schedule scraper"
           python scraper_rite.py
         continue-on-error: true
 
       - name: Run RowReformer scraper
         run: |
-          cd "Schedule scraper"
           python scraper_rowreformer.py
         continue-on-error: true
 
       - name: Run Silver Aggregation
         run: |
-          cd "Schedule scraper"
           python silver_aggregation.py
         continue-on-error: false
 
