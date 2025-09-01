@@ -13,6 +13,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from time import sleep
+import sys
+import os
+import json
+from datetime import datetime
+
+# Add the project root to Python path to handle imports
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+try:
+    from ..database.utils import write_snapshots
+except ImportError:
+    # Fallback for direct script execution
+    from src.database.utils import write_snapshots
 
 # Set up Chrome options
 chrome_options = Options()
@@ -107,21 +122,14 @@ try:
     # Count the number of classes scraped
     num_classes = len(reform_classes)
     print(f"Scraped {num_classes} classes")
-    
-    # Import db_utils for database operations
-    import sys
-import os
 
-# Add the project root to Python path to handle imports
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
+except Exception as e:
+    print(f"Error during scraping: {e}")
+    reform_classes = []
 
-try:
-    from ..database.utils import write_snapshots
-except ImportError:
-    # Fallback for direct script execution
-    from src.database.utils import write_snapshots
+finally:
+    # Close the browser
+    driver.quit()
 
 # Write to database if DATABASE_URL is set
 if os.getenv("DATABASE_URL"):
@@ -164,14 +172,6 @@ else:
     for location in sorted(distinct_locations):
         if location:  # Only print non-empty locations
             print(f"  - {location}")
-
-
-
-
-finally:
-    # Close the browser
-    driver.quit()
-
 
 def main():
     """Main entry point for Rite scraper."""
