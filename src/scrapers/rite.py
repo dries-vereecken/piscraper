@@ -109,24 +109,36 @@ try:
     print(f"Scraped {num_classes} classes")
     
     # Import db_utils for database operations
-    from db_utils import write_snapshots
-    
-    # Write to database if DATABASE_URL is set
-    if os.getenv("DATABASE_URL"):
-        try:
-            write_snapshots("rite", reform_classes)
-            print("Successfully wrote data to database")
-        except Exception as e:
-            print(f"Error writing to database: {e}")
-            # Fallback to JSON if database write fails
-            with open(filename, "w", encoding="utf-8") as f:
-                json.dump(reform_classes, f, indent=2, ensure_ascii=False)
-            print(f"Fallback: Saved schedule data to {filename}")
-    else:
-        # Fallback to JSON when running locally without DATABASE_URL
+    import sys
+import os
+
+# Add the project root to Python path to handle imports
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+try:
+    from ..database.utils import write_snapshots
+except ImportError:
+    # Fallback for direct script execution
+    from src.database.utils import write_snapshots
+
+# Write to database if DATABASE_URL is set
+if os.getenv("DATABASE_URL"):
+    try:
+        write_snapshots("rite", reform_classes)
+        print("Successfully wrote data to database")
+    except Exception as e:
+        print(f"Error writing to database: {e}")
+        # Fallback to JSON if database write fails
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(reform_classes, f, indent=2, ensure_ascii=False)
-        print(f"Saved schedule data to {filename}")
+        print(f"Fallback: Saved schedule data to {filename}")
+else:
+    # Fallback to JSON when running locally without DATABASE_URL
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(reform_classes, f, indent=2, ensure_ascii=False)
+    print(f"Saved schedule data to {filename}")
 
     # Check if all expected fields are populated correctly
     expected_fields = ["name", "date", "hour", "address", "instructor", "availability"]

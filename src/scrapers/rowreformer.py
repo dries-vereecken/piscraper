@@ -139,7 +139,18 @@ print(f"Scraped {total_classes} classes")
 
 # Import db_utils for database operations
 import os
-from db_utils import write_snapshots
+import sys
+
+# Add the project root to Python path to handle imports
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+try:
+    from ..database.utils import write_snapshots
+except ImportError:
+    # Fallback for direct script execution
+    from src.database.utils import write_snapshots
 
 # Write to database if DATABASE_URL is set
 if os.getenv("DATABASE_URL"):
