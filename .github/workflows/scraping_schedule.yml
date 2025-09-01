@@ -21,6 +21,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
+      with:
+        path: "Schedule scraper"
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -50,14 +52,14 @@ jobs:
         chromedriver --version
         
     - name: Install dependencies
+      working-directory: "Schedule scraper"
       run: |
-        cd "Schedule scraper"
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
     - name: Run scrapers and write to database
+      working-directory: "Schedule scraper"
       run: |
-        cd "Schedule scraper"
         echo "🚀 Starting scraping and database write..."
         
         echo "Running CoolCharm scraper..."
@@ -75,8 +77,8 @@ jobs:
         echo "✅ Scraping completed - data written to bronze layer"
         
     - name: Run silver layer aggregation
+      working-directory: "Schedule scraper"
       run: |
-        cd "Schedule scraper"
         echo "🔄 Running bronze → silver aggregation..."
         python silver_aggregation.py || echo "⚠️ Warning: Silver aggregation failed"
         echo "✅ Silver layer aggregation completed" 
