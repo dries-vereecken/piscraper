@@ -55,24 +55,24 @@ jobs:
       working-directory: "Schedule scraper"
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -e .
         
     - name: Run scrapers and write to database
       working-directory: "Schedule scraper"
       run: |
         echo "🚀 Starting scraping and database write..."
         
-        echo "Running CoolCharm scraper..."
-        python scraper_coolcharm.py || echo "⚠️ Warning: CoolCharm scraper failed"
-        
         echo "Running Koepel scraper..."
-        python scraper_koepel.py || echo "⚠️ Warning: Koepel scraper failed"
+        python run_scrapers.py koepel || echo "⚠️ Warning: Koepel scraper failed"
+        
+        echo "Running CoolCharm scraper..."
+        python -c "import sys; sys.path.insert(0, 'src'); from scrapers.coolcharm import main; main()" || echo "⚠️ Warning: CoolCharm scraper failed"
         
         echo "Running Rite scraper..."
-        python scraper_rite.py || echo "⚠️ Warning: Rite scraper failed"
+        python -c "import sys; sys.path.insert(0, 'src'); from scrapers.rite import main; main()" || echo "⚠️ Warning: Rite scraper failed"
         
         echo "Running RowReformer scraper..."
-        python scraper_rowreformer.py || echo "⚠️ Warning: RowReformer scraper failed"
+        python -c "import sys; sys.path.insert(0, 'src'); from scrapers.rowreformer import main; main()" || echo "⚠️ Warning: RowReformer scraper failed"
         
         echo "✅ Scraping completed - data written to bronze layer"
         
@@ -80,5 +80,5 @@ jobs:
       working-directory: "Schedule scraper"
       run: |
         echo "🔄 Running bronze → silver aggregation..."
-        python silver_aggregation.py || echo "⚠️ Warning: Silver aggregation failed"
+        python -c "import sys; sys.path.insert(0, 'src'); from silver_layer.aggregator import main; main()" || echo "⚠️ Warning: Silver aggregation failed"
         echo "✅ Silver layer aggregation completed" 

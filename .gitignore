@@ -7,7 +7,12 @@ __pycache__/
 venv/
 ENV/
 .venv/
-
+env/
+.env
+.envrc
+*.egg-info/
+dist/
+build/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -15,7 +20,28 @@ ENV/
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Data
+data/raw/*.json
+data/processed/
+data/temp/
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json 
