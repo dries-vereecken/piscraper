@@ -82,6 +82,188 @@ class SilverAggregator:
             );
             """)
     
+    def enhance_record_with_raw_data(self, record: Dict) -> Dict:
+        """Enhance bronze record with missing temporal/capacity data from raw JSON"""
+        enhanced = record.copy()
+        
+        try:
+            raw_data = record.get('raw')
+            if isinstance(raw_data, str):
+                raw_data = json.loads(raw_data)
+            elif not isinstance(raw_data, dict):
+                return enhanced
+            
+            source = record['source']
+            
+            # Extract temporal data based on source
+            if source == 'coolcharm':
+                # CoolCharm: Multiple date formats: "01/09/2025" or "SATURDAY 21 JUNE"
+                if not enhanced.get('start_ts') and raw_data.get('date') and raw_data.get('time'):
+                    try:
+                        date_str = raw_data['date']
+                        time_str = raw_data['time']
+                        
+                        # Parse date - handle multiple formats
+                        date_obj = None
+                        
+                        # Try DD/MM/YYYY format first
+                        try:
+                            date_obj = datetime.strptime(date_str, "%d/%m/%Y")
+                        except ValueError:
+                            # Try "MONDAY DD MONTH" format
+                            try:
+                                # Extract day and month from "SATURDAY 21 JUNE"
+                                import re
+                                match = re.search(r'(\d{1,2})\s+(\w+)', date_str)
+                                if match:
+                                    day = int(match.group(1))
+                                    month_name = match.group(2).upper()
+                                    
+                                    # Map month names to numbers
+                                    months = {
+                                        'JANUARY': 1, 'FEBRUARY': 2, 'MARCH': 3, 'APRIL': 4,
+                                        'MAY': 5, 'JUNE': 6, 'JULY': 7, 'AUGUST': 8,
+                                        'SEPTEMBER': 9, 'OCTOBER': 10, 'NOVEMBER': 11, 'DECEMBER': 12
+                                    }
+                                    
+                                    if month_name in months:
+                                        # Assume 2025 for future dates
+                                        date_obj = datetime(2025, months[month_name], day)
+                            except (ValueError, AttributeError):
+                                pass
+                        
+                        if date_obj and ' - ' in time_str:
+                            start_time_str, end_time_str = time_str.split(' - ')
+                            start_hour, start_min = map(int, start_time_str.split(':'))
+                            end_hour, end_min = map(int, end_time_str.split(':'))
+                            
+                            # Combine date and time
+                            start_dt = date_obj.replace(hour=start_hour, minute=start_min, tzinfo=timezone.utc)
+                            end_dt = date_obj.replace(hour=end_hour, minute=end_min, tzinfo=timezone.utc)
+                            
+                            enhanced['start_ts'] = start_dt
+                            enhanced['end_ts'] = end_dt
+                    except (ValueError, KeyError, TypeError):
+                        pass
+                        
+                # Extract capacity from availability
+                if not enhanced.get('capacity') and raw_data.get('availability'):
+                    try:
+                        avail = raw_data['availability']  # "4 / 5"
+                        if ' / ' in avail:
+                            spots, capacity = avail.split(' / ')
+                            enhanced['capacity'] = int(capacity)
+                            enhanced['spots_available'] = int(spots)
+                    except (ValueError, TypeError):
+                        pass
+            
+            elif source == 'rowreformer':
+                # RowReformer: {"date": "18/05/2025", "details": ["REFORM", "9:00 AM" or "13:00", ...], ...}
+                if not enhanced.get('start_ts') and raw_data.get('date'):
+                    try:
+                        date_str = raw_data['date']  # "18/05/2025"
+                        details = raw_data.get('details', [])
+                        
+                        if len(details) > 1:
+                            time_str = details[1]  # "9:00 AM" or "13:00"
+                            
+                            # Parse date (DD/MM/YYYY format)
+                            date_obj = datetime.strptime(date_str, "%d/%m/%Y")
+                            
+                            # Parse time - handle both 12-hour and 24-hour formats
+                            time_obj = None
+                            
+                            # Try 12-hour format first (H:MM AM/PM)
+                            try:
+                                time_obj = datetime.strptime(time_str, "%I:%M %p")
+                            except ValueError:
+                                # Try 24-hour format (HH:MM)
+                                try:
+                                    time_obj = datetime.strptime(time_str, "%H:%M")
+                                except ValueError:
+                                    pass
+                            
+                            if time_obj:
+                                # Combine date and time (assume 50min classes)
+                                start_dt = date_obj.replace(hour=time_obj.hour, minute=time_obj.minute, tzinfo=timezone.utc)
+                                end_dt = start_dt + timedelta(minutes=50)
+                                
+                                enhanced['start_ts'] = start_dt
+                                enhanced['end_ts'] = end_dt
+                    except (ValueError, KeyError, IndexError):
+                        pass
+                        
+                # Extract capacity from details
+                if not enhanced.get('capacity'):
+                    try:
+                        details = raw_data.get('details', [])
+                        if len(details) > 5:
+                            avail = details[5]  # "8/10"
+                            if '/' in avail:
+                                spots, capacity = avail.split('/')
+                                enhanced['capacity'] = int(capacity)
+                                enhanced['spots_available'] = int(spots)
+                    except (ValueError, TypeError, IndexError):
+                        pass
+            
+            elif source == 'koepel':
+                # Koepel: {"date": "zaterdag 17 mei", "time": "11:00 - 11:45", "capacity": "3 / 4", ...}
+                
+                # Extract temporal data from Dutch date format
+                if not enhanced.get('start_ts') and raw_data.get('date') and raw_data.get('time'):
+                    try:
+                        date_str = raw_data['date']  # "zaterdag 12 juli"
+                        time_str = raw_data['time']  # "11:00 - 11:45"
+                        
+                        # Extract day and month from Dutch date
+                        import re
+                        match = re.search(r'(\d{1,2})\s+(\w+)', date_str)
+                        if match and ' - ' in time_str:
+                            day = int(match.group(1))
+                            month_name = match.group(2).lower()
+                            
+                            # Map Dutch month names to numbers
+                            dutch_months = {
+                                'januari': 1, 'februari': 2, 'maart': 3, 'april': 4,
+                                'mei': 5, 'juni': 6, 'juli': 7, 'augustus': 8,
+                                'september': 9, 'oktober': 10, 'november': 11, 'december': 12
+                            }
+                            
+                            if month_name in dutch_months:
+                                # Assume 2025 for future dates
+                                date_obj = datetime(2025, dutch_months[month_name], day)
+                                
+                                # Parse time (HH:MM - HH:MM format)
+                                start_time_str, end_time_str = time_str.split(' - ')
+                                start_hour, start_min = map(int, start_time_str.split(':'))
+                                end_hour, end_min = map(int, end_time_str.split(':'))
+                                
+                                # Combine date and time
+                                start_dt = date_obj.replace(hour=start_hour, minute=start_min, tzinfo=timezone.utc)
+                                end_dt = date_obj.replace(hour=end_hour, minute=end_min, tzinfo=timezone.utc)
+                                
+                                enhanced['start_ts'] = start_dt
+                                enhanced['end_ts'] = end_dt
+                    except (ValueError, KeyError, TypeError, AttributeError):
+                        pass
+                
+                # Extract capacity from availability
+                if not enhanced.get('capacity') and raw_data.get('capacity'):
+                    try:
+                        avail = raw_data['capacity']  # "3 / 4"
+                        if ' / ' in avail:
+                            spots, capacity = avail.split(' / ')
+                            enhanced['capacity'] = int(capacity)
+                            enhanced['spots_available'] = int(spots)
+                    except (ValueError, TypeError):
+                        pass
+        
+        except Exception:
+            # If anything fails, return the original record
+            pass
+        
+        return enhanced
+    
     def generate_class_id(self, record: Dict[str, Any]) -> str:
         """Generate unique class ID based on source and class characteristics"""
         source = record['source']
@@ -185,7 +367,10 @@ class SilverAggregator:
         now = datetime.now(timezone.utc)
         
         for class_id, latest_record in class_groups.items():
-            start_ts = latest_record['start_ts']
+            # Enhance record with missing temporal/capacity data from raw JSON
+            enhanced_record = self.enhance_record_with_raw_data(latest_record)
+            
+            start_ts = enhanced_record['start_ts']
             is_past = start_ts < now if start_ts else False
             
             # Check if class already exists in silver
@@ -199,11 +384,11 @@ class SilverAggregator:
                     continue
                 else:
                     # Future class - update with latest data
-                    self.update_silver_record(conn, class_id, latest_record, is_past)
+                    self.update_silver_record(conn, class_id, enhanced_record, is_past)
                     stats['updated'] += 1
             else:
                 # New class - insert
-                self.insert_silver_record(conn, class_id, latest_record, is_past)
+                self.insert_silver_record(conn, class_id, enhanced_record, is_past)
                 stats['inserted'] += 1
         
         # Mark classes as cancelled if they're missing from recent scrapes

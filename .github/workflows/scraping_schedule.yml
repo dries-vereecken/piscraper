@@ -2,25 +2,25 @@ name: Scheduled Scraping
 
 on:
   schedule:
-    # Run at 6:00, 12:00, and 18:00 UTC every day
+    # Run at 4:00, 10:00, and 16:00 UTC every day (6:00, 12:00, 18:00 CET)
     - cron: '0 4 * * *'
     - cron: '0 10 * * *'
     - cron: '0 16 * * *'
   # Allow manual triggering
   workflow_dispatch:
 
-# Add permissions block
-permissions:
-  contents: write
+# Removed permissions since we no longer commit to git
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     
+    # Add environment variables
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    
     steps:
     - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -51,59 +51,32 @@ jobs:
         
     - name: Install dependencies
       run: |
+        cd "Schedule scraper"
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Convert notebooks to Python scripts
+    - name: Run scrapers and write to database
       run: |
-        echo "Converting notebooks to Python scripts..."
-        for notebook in scraper_*.ipynb; do
-          if [ -f "$notebook" ]; then
-            echo "Converting $notebook..."
-            jupyter nbconvert --to python "$notebook"
-          fi
-        done
+        cd "Schedule scraper"
+        echo "🚀 Starting scraping and database write..."
         
-    - name: Update ChromeDriver configuration
-      run: |
-        echo "Updating ChromeDriver configuration in scripts..."
-        for script in scraper_*.py; do
-          if [ -f "$script" ]; then
-            echo "Updating $script..."
-            # Replace ChromeDriverManager().install() with /usr/local/bin/chromedriver
-            sed -i 's|ChromeDriverManager().install()|"/usr/local/bin/chromedriver"|g' "$script"
-            # Add Service import if not present
-            if ! grep -q "from selenium.webdriver.chrome.service import Service" "$script"; then
-              sed -i '1i from selenium.webdriver.chrome.service import Service' "$script"
-            fi
-            # Update driver initialization to use Service
-            sed -i 's|driver = webdriver.Chrome(options=chrome_options)|driver = webdriver.Chrome(service=Service("/usr/local/bin/chromedriver"), options=chrome_options)|g' "$script"
-            # Update Chrome version in user-agent
-            sed -i 's|Chrome/[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|Chrome/136.0.7103.92|g' "$script"
-          fi
-        done
+        echo "Running CoolCharm scraper..."
+        python scraper_coolcharm.py || echo "⚠️ Warning: CoolCharm scraper failed"
         
-    - name: Run scrapers
-      run: |
-        echo "Starting scrapers..."
-        for script in scraper_*.py; do
-          if [ -f "$script" ]; then
-            echo "Running $script..."
-            python "$script" || echo "Warning: $script failed to run"
-          fi
-        done
+        echo "Running Koepel scraper..."
+        python scraper_koepel.py || echo "⚠️ Warning: Koepel scraper failed"
         
-    - name: Commit and push if changes
+        echo "Running Rite scraper..."
+        python scraper_rite.py || echo "⚠️ Warning: Rite scraper failed"
+        
+        echo "Running RowReformer scraper..."
+        python scraper_rowreformer.py || echo "⚠️ Warning: RowReformer scraper failed"
+        
+        echo "✅ Scraping completed - data written to bronze layer"
+        
+    - name: Run silver layer aggregation
       run: |
-        echo "Checking for changes..."
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add scraped_data/
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          echo "Committing changes..."
-          git commit -m "Update scraped data" -a || exit 0
-          echo "Pushing changes..."
-          git push
-        fi 
+        cd "Schedule scraper"
+        echo "🔄 Running bronze → silver aggregation..."
+        python silver_aggregation.py || echo "⚠️ Warning: Silver aggregation failed"
+        echo "✅ Silver layer aggregation completed" 
