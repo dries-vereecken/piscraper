@@ -16,7 +16,19 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-from ..database.utils import get_connection, insert_run, insert_snapshots
+import sys
+import os
+
+# Add the project root to Python path to handle imports
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+try:
+    from ..database.utils import get_connection, insert_run, write_snapshots
+except ImportError:
+    # Fallback for direct script execution
+    from src.database.utils import get_connection, insert_run, write_snapshots
 
 
 class BaseScraper(ABC):
@@ -76,7 +88,7 @@ class BaseScraper(ABC):
                 self.run_id = insert_run(conn, self.source_name, git_sha)
                 
                 # Insert snapshot data
-                insert_snapshots(conn, self.run_id, self.source_name, data)
+                write_snapshots(self.source_name, data)
                 
             print(f"✅ Saved {len(data)} records to database")
             return True
