@@ -142,15 +142,56 @@ def parse_end_datetime_from_date_time(date_str: str, time_str: str) -> Optional[
     return None
 
 def as_rows(source: str, run_id: str, scraped_at: datetime, items: List[Dict[str, Any]]):
-    """Convert items to database rows."""
+    """Convert items to database rows with source-specific field mapping."""
     for item in items:
         # Parse availability
         availability_str = coalesce(item, "availability", "available", "spots_available", "free_spots")
         spots_available, capacity = parse_availability(availability_str) if availability_str else (None, None)
         
-        # Parse datetime
-        date_str = coalesce(item, "date", "start_date")
-        time_str = coalesce(item, "time", "start_time", "hour")
+        # Source-specific field mapping
+        if source == "rite":
+            # Rite uses "address" instead of "location"
+            location = coalesce(item, "address", "location", "studio")
+            class_name = coalesce(item, "name", "class_name", "title", "type")
+            instructor = coalesce(item, "instructor", "teacher")
+            date_str = coalesce(item, "date", "start_date")
+            time_str = coalesce(item, "time", "start_time", "hour")
+        elif source == "koepel":
+            # Koepel has limited fields, derive class_name from context
+            location = coalesce(item, "location", "studio", "address") or "Unknown Location"
+            class_name = coalesce(item, "class_name", "title", "name", "type") or "Group Class"
+            instructor = coalesce(item, "instructor", "teacher")
+            date_str = coalesce(item, "date", "start_date")
+            time_str = coalesce(item, "time", "start_time", "hour")
+        elif source == "rowreformer":
+            # RowReformer uses nested structure with details array
+            details = item.get("details", [])
+            if len(details) >= 6:
+                # details = [class_name, time, level, instructor, location, availability, status]
+                class_name = details[0] if details[0] else "ROW Class"
+                location = details[4] if len(details) > 4 and details[4] else "ROW Studio"
+                instructor = details[3] if len(details) > 3 and details[3] else None
+                time_str = details[1] if len(details) > 1 and details[1] else None
+                availability_str = details[5] if len(details) > 5 and details[5] else None
+                # Override the parsed availability with details array data
+                if availability_str:
+                    spots_available, capacity = parse_availability(availability_str)
+            else:
+                # Fallback for malformed data
+                class_name = "ROW Class"
+                location = "ROW Studio"
+                instructor = None
+                time_str = None
+            date_str = coalesce(item, "date", "start_date")
+        else:
+            # Default mapping for other sources (coolcharm, etc.)
+            location = coalesce(item, "location", "studio", "address")
+            class_name = coalesce(item, "class_name", "title", "name", "type")
+            instructor = coalesce(item, "instructor", "teacher")
+            date_str = coalesce(item, "date", "start_date")
+            time_str = coalesce(item, "time", "start_time", "hour")
+        
+        # Parse datetime (after source-specific field mapping)
         start_ts = parse_datetime_from_date_time(date_str, time_str) if date_str and time_str else None
         end_ts = parse_end_datetime_from_date_time(date_str, time_str) if date_str and time_str else None
         
@@ -158,9 +199,9 @@ def as_rows(source: str, run_id: str, scraped_at: datetime, items: List[Dict[str
             run_id,
             source,
             coalesce(item, "id", "uid", "external_id", "slug"),
-            coalesce(item, "class_name", "title", "name", "type"),
-            coalesce(item, "instructor", "teacher"),
-            coalesce(item, "location", "studio"),
+            class_name,
+            instructor,
+            location,
             start_ts,
             end_ts,
             capacity,

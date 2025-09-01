@@ -153,7 +153,7 @@ try:
         if location:  # Only print non-empty locations
             print(f"  - {location}")
 
-    print(f"Data has been saved to {filename}")
+
 
 
 finally:

@@ -234,5 +234,5 @@ if any("location" in class_data for class_data in class_details):
             print(f"  - {location}")
 
 
-print(f"Done! Saved {scraped_count} classes to {output_file}")
+print(f"Completed! Scraped {scraped_count} classes successfully")
 driver.quit()
